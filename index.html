@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <!-- google fonts -->
+
+    <!-- roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- lato font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link to external css stylesheet -->
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <!-- website container -->
+    <div class="container">
+      <!-- weather section -->
+      <div class="weather">
+        <!-- form section -->
+        <header>
+          <form>
+            <input
+              class="search-input"
+              type="search"
+              placeholder="Enter a city.."
+              required
+            />
+            <input class="search-button" type="submit" value="Search" />
+          </form>
+        </header>
+
+        <!-- weather info -->
+        <main>
+          <div class="current-weather">
+            <div class="weather-info">
+              <h1>Paris</h1>
+              <p>
+                Saturday 15:32, moderate rain <br />
+                Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+              </p>
+            </div>
+
+            <!-- current temperature -->
+            <div class="temperature">☀️ 14°C</div>
+          </div>
+        </main>
+      </div>
+
+      <!-- footer section with footer links -->
+      <footer>
+        <p>
+          Coded with 🩶 by
+          <a
+            href="https://www.shecodes.io/graduates/68536-kezia-mccabe"
+            target="_blank"
+            class="footer-links"
+            >Kezia McCabe</a
+          >
+          <br />
+          | Open-sourced
+          <a
+            href="https://codesandbox.io/p/devbox/project-css-challenge-forked-g26k83?file=%2Fsrc%2Fstyles.css%3A107%2C1&workspaceId=ws_xe19eSbHGDrPqejPyBQP5"
+            target="_blank"
+            class="footer-links"
+          >
+            on GitHub</a
+          >
+          and hosted
+          <a href="LINK HERE" target="_blank" class="footer-links"
+            >on Netlify</a
+          >
+          |
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
